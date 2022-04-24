@@ -37,5 +37,3 @@ code block
 whats code block
 this is a code block
 ```
-
-[egg](https://google.com)
