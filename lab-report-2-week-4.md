@@ -33,3 +33,14 @@ This is fixed for our test by checking if there is an open parenthesis in our li
 
 
 ## Test #3:
+
+This test involved the file `break-test.md` ([here](https://github.com/gabrielseventhucsd25/markdown-parser/blob/8a5ae06d9fe3b1583e25c0f7e9bdb4eabcd813d3/break-test.md?plain=1)). This was a failure-producing input because it incorrectly gathered the links. The output we got was
+
+![third output](lab-report-2-resources\third-output.png)
+but we wanted it to print `[https://en.wikipedia.org/wiki/Diego_(tortoise), about:blank]`. 
+
+The bug is that the link includes a pair of parenthesis, so our program thinks that the link ends earlier than it does. As such, it fails to print out the correct link. 
+
+To make the program work for this test, we added a statement to check for a newline character instead of a close parenthesis. This works for this test specifically, but is extremely likely to introduce more bugs.
+
+![third code change](lab-report-2-resources\third-code-change.png)
