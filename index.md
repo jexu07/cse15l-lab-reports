@@ -5,8 +5,8 @@ have you heard of the greek hero bophades? me neither
 
 play higurashi, thanks
 
-[first link to lab](lab-report-1-week-2.md)
+[number one](lab-report-1-week-2.md) (my first lab report)
 
-[second link to lab](https://jexu07.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+[TWOOOOOO](lab-report-2-week-4.md) (my second lab report)
 
 [reisen](reisen.md)
