@@ -9,4 +9,6 @@ play higurashi, thanks
 
 [TWOOOOOO](lab-report-2-week-4.md) (my second lab report)
 
+[tree](lab-report-3-week-6.md) (my third lab report)
+
 [reisen](reisen.md)
