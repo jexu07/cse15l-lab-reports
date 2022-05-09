@@ -16,3 +16,5 @@ When I typed in my account password, it did not work and I exited using Ctrl + c
 
 
 ## Part 2: Setup Github Access from ieng6
+
+This part involved setting up ssh keys for Github.
