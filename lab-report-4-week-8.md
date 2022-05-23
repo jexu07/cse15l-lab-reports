@@ -1,6 +1,6 @@
 # CSE15L Lab Report 4
 
-For this lab report, we are looking at how my `MarkdownParse.java` and the group that we review's parser works on three complicated markdown tests.
+For this lab report, we are looking at how my `MarkdownParse.java` and the group that we reviewed's parser works on three complicated markdown tests.
 
 These are the three tests we were given:
 
@@ -68,4 +68,4 @@ For the second test, I also don't think a small code change could fix the proble
 
 For the third test, I also don't think a small code change could fix the problem for test 3 and all related cases regarding newlines in brackets and parentheses. I think fixing parentheses will be easy, since spaces already prevent something from being a link and newlines are represented as spaces. So, checking for spaces in the link will also check for newlines. However, fixing newlines in brackets is more difficult since you can put as many spaces between words as you want, so checking for spaces won't work here. I don't know how what else I could do to fix this. I would have to look into exactly how newlines are represented in markdown that makes them unique from spaces. If I could figure out a way to check for newlines, then fixing this would be simple since I could ignore links which have two or more consecutive newlines in the text between the brackets.
 
-This lab was a good lesson in making sure that your code works in edge cases. Although I thought my markdown parser was fairly solid, these examples exposed that there were cases that I hadn't thought of that my parser failed on. I have gained more respect for people who create tools like Markdown, since they have to account for every case that could possibly happen, even if they are rare occurances.
+This lab was a good lesson in making sure that your code works in edge cases. Although I thought my markdown parser was fairly solid, these examples exposed that there were cases I hadn't thought of that my parser failed on. I have gained more respect for people who create tools like Markdown, since they have to account for every case that could possibly happen, even if they are rare occurances.
